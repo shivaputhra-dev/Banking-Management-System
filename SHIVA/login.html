@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - Shiva Putra International Bank</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="images/bank-logo.png"
+             alt="Bank Logo">
+
+        <div>
+            <h2>Shiva Putra</h2>
+            <p>International Bank</p>
+        </div>
+
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+</header>
+
+<section class="form-section">
+
+    <div class="form-box">
+
+        <img src="images/bank-logo.png"
+             class="form-logo"
+             alt="Bank Logo">
+
+        <h1>Customer Login</h1>
+
+        <form onsubmit="loginUser(event)">
+
+            <label>Email / Account Number</label>
+
+            <input type="text"
+                   id="loginUser"
+                   placeholder="Enter email or account number"
+                   required>
+
+            <label>Password</label>
+
+            <input type="password"
+                   id="loginPassword"
+                   placeholder="Enter password"
+                   required>
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <p>
+            Don't have an account?
+        </p>
+
+        <a href="register.html">
+            Create New Account
+        </a>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
